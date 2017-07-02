@@ -1,3 +1,43 @@
 <resources>
     <string name="app_name">DocenciaApp</string>
+
+    <string name="hint_text_usuario">Usuario</string>
+    <string name="hint_text_contraseña">Contraseña</string>
+    <string name="text_crear_cuenta">¿No tienes cuenta?, Crea una aqui</string>
+    <string name="btn_login">INICIAR</string>
+
+    <string name="hint_text_crear_nombre">NOMBRE</string>
+    <string name="hint_text_crear_apellido">APELLIDO</string>
+    <string name="hint_text_crear_dni">DNI</string>
+    <string name="hint_text_crear_celular">CELULAR</string>
+    <string name="hint_text_crear_correo">CORREO</string>
+    <string name="text_btn_crear">UNETE</string>
+
+    <string name="email_navdrawer">climperperu@gmail.com.pe</string>
+    <string name="name_navdrawer">Clínica Climper</string>
+
+    <string name="transitionname_picture">transitionnamepicture</string>
+    <!-- Gestograma-->
+    <string name="name_item">Nombres</string>
+    <string name="week_item">Semanas</string>
+    <string name="info_item">Información</string>
+    <string name="EG_1_item">Gestograma FUR</string>
+    <string name="EG_2_item">Gestograma Eco Precoz</string>
+    <string name="uterinas_item">Tabla Uterinas</string>
+    <string name="umbilical_item">Tabla Umbilical</string>
+    <string name="acm_item">Tabla ACM</string>
+    <string name="peso_item">Tabla Peso</string>
+
+    <!-- Alumnos -->
+    <string name="menu_gestogram_item">Gestograma</string>
+    <string name="menu_course_item">Cursos</string>
+    <string name="menu_location_item">Direccion</string>
+    <string name="menu_web1_item">Climper</string>
+    <string name="menu_web2_item">Ecografia 4D</string>
+    <string name="menu_logout_item">Cerrar Sesión</string>
+    <string name="back_item">Regresar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>

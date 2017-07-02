@@ -2,9 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.climper.docenciaapp">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/logo2_item"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -15,6 +17,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ui.view.activity.LoginActivity" />
+        <activity android:name=".ui.view.activity.GestoActivity" />
+        <activity android:name=".ui.view.activity.CrearCuentaActivity" />
+        <activity android:name=".ui.view.activity.Diplo_Curso_Modulo" />
+        <activity android:name=".ui.view.activity.Diplo_Curso_Temas" />
+        <activity android:name=".ui.view.activity.Diplo_Curso_Video" />
+        <activity android:name=".ui.view.activity.Diplo_Curso_Detalle" />
+        <activity android:name=".ui.view.activity.VideoPlayer_Activity"></activity>
     </application>
 
 </manifest>

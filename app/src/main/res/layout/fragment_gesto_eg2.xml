@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.climper.docenciaapp.ui.view.fragment.gesto_eg2_fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:fillViewport="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <CalendarView
+                android:id="@+id/calendarview_fe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:id="@+id/LL_interno"
+                android:layout_below="@+id/calendarview_fe"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ingrese la EG de la eco precoz"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center|center_vertical" />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:maxLength="2"
+                    android:gravity="center"
+                    android:id="@+id/EP"
+                    android:textStyle="bold"
+                    android:layout_marginRight="10dp" />
+            </LinearLayout>
+
+            <Button
+                android:text="CALCULAR"
+                android:theme="@style/RaisedButtonDark"
+                android:id="@+id/btn_save_fecha_fe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/LL_interno" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

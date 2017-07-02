@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <!--<item
+                    android:id="@+id/nav_cart"
+                    android:icon="@drawable/ic_chrome_white"
+                    android:title="@string/info_item" />-->
+        <item
+            android:id="@+id/nav_curso"
+            android:icon="@drawable/ic_chrome_white"
+            android:title="@string/menu_course_item" />
+        <item
+            android:id="@+id/nav_order"
+            android:icon="@drawable/ic_chrome_white"
+            android:title="@string/EG_1_item" />
+        <item
+            android:id="@+id/nav_invoices"
+            android:icon="@drawable/ic_chrome_white"
+            android:title="@string/EG_2_item" />
+        <item
+            android:id="@+id/nav_uterinas"
+            android:icon="@drawable/ic_chrome_white"
+            android:title="@string/uterinas_item" />
+        <item
+            android:id="@+id/nav_umbilical"
+            android:icon="@drawable/ic_chrome_white"
+            android:title="@string/umbilical_item" />
+        <item
+            android:id="@+id/nav_acm"
+            android:icon="@drawable/ic_chrome_white"
+            android:title="@string/acm_item" />
+        <item
+            android:id="@+id/nav_peso"
+            android:icon="@drawable/ic_chrome_white"
+            android:title="@string/peso_item" />
+        <item
+            android:id="@+id/nav_web1"
+            android:icon="@drawable/ic_chrome_white"
+            android:title="@string/menu_web1_item" />
+        <item
+            android:id="@+id/nav_web2"
+            android:icon="@drawable/ic_chrome_white"
+            android:title="@string/menu_web2_item" />
+        <item
+            android:id="@+id/nav_log_out"
+            android:icon="@android:drawable/ic_lock_power_off"
+            android:title="@string/back_item" />
+    </group>
+</menu>

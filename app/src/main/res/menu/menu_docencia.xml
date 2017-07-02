@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav_logout"
+        android:title="@string/menu_logout_item"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_chrome_white"
+        app:showAsAction="never" />
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:checked="true"
+            android:icon="@drawable/ic_chrome_white"
+            android:title="@string/menu_gestogram_item" />
+        <item
+            android:id="@+id/nav_course"
+            android:icon="@drawable/ic_chrome_white"
+            android:title="@string/menu_course_item" />
+
+        <item
+            android:id="@+id/nav_invoices"
+            android:icon="@drawable/ic_chrome_white"
+            android:title="@string/menu_location_item" />
+
+        <item
+            android:id="@+id/nav_web1"
+            android:icon="@drawable/ic_chrome_white"
+            android:title="@string/menu_web1_item" />
+        <item
+            android:id="@+id/nav_web2"
+            android:icon="@drawable/ic_chrome_white"
+            android:title="@string/menu_web2_item" />
+
+    </group>
+</menu>

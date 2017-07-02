@@ -1,6 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="@dimen/height_carview_curso"
+    cardview:cardCornerRadius="@dimen/cornerradius_cardview"
+    android:layout_marginBottom="@dimen/activity_vertical_margin">
 
-</LinearLayout>
+    <FrameLayout
+        android:layout_alignParentRight="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/course_imagen_item"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_carview_curso"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:scaleType="centerCrop"
+            android:transitionName="@string/transitionname_picture" />
+
+        <RelativeLayout
+            android:layout_gravity="bottom"
+            android:background="@color/backgroundtext_card"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/course_nombre_item"
+                android:text="CURSO X"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/textsize_curso_cardview"/>
+        </RelativeLayout>
+    </FrameLayout>
+</android.support.v7.widget.CardView>
